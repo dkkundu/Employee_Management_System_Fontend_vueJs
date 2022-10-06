@@ -20,10 +20,8 @@
             Staff
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Add</a></li>
-            <li>
-                  <router-link to="/employee-list" class="dropdown-item">List</router-link>
-            </li>
+            <li><router-link to="/add-employee" class="dropdown-item">Add</router-link></li>
+            <li><router-link to="/employee-list" class="dropdown-item">List</router-link></li>
           </ul>
         </li>
       </ul>
